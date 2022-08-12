@@ -1,0 +1,45 @@
+.footer_main{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right,black,black);
+    position: fixed;
+    color:gray;
+    left:0;
+    right:0;
+    width:100%;
+    font-size: large;
+    font-weight: 200;
+    bottom: 0;
+    height: 90px;
+    justify-content: space-between;
+}
+.footer_l{
+    flex:.3;
+    color: gray;
+    padding-left:20px;
+}
+.footer_r{
+    flex:.3;
+}
+.footer_m{
+    flex:.4;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:300px;
+    
+   
+}
+.footer_btns{
+    font-size: larger;
+    font-weight: 500;
+    color: gray;
+    transition: 200ms color ease;
+}
+.footer_btns:hover{
+    color: white;
+}
+.play_btn{
+color: whitesmoke;
+}

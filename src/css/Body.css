@@ -1,0 +1,5 @@
+#body--main{
+    flex:.8;
+    border: 5PX SOLID BLUE;
+    height: 100vh;
+}
