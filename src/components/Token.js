@@ -7,7 +7,12 @@ const scope=[
 "user-read-recently-played",
 "user-read-playback-state",
 "user-top-read",
-"user-modify-playback-state"
+"user-modify-playback-state",
+"streaming",
+"user-read-email",
+"user-read-private",
+"user-read-playback-state ",
+"user-modify-playback-state "
 ]
 export const loginUrl=`${Authendpoint}?client_id=${client_id}&redirect_uri=${redirect_uri}&scope=${scope.join("%20")}&response_type=token&show_dialog=true`;
 const hash =window.location.hash;

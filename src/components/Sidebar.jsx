@@ -3,11 +3,16 @@ import '../css/Sidebar.css'
 import { AiOutlineHome } from "react-icons/ai";
 import { BsSearch } from "react-icons/bs";
 import { BiLibrary } from "react-icons/bi";
-
-
+import { useData } from './DataLayer';
 import SidebarMenuOptions from './SidebarMenuOptions';
-// import {link} from '../images/spotify_sidebar.svg'
+
+
+
+
 export const Sidebar=()=> {
+  const [{ user, token, playlist }, dispatch] = useData();
+  
+  console.log(user);
   return (
     <div id="sidebar--main">
            <img src="image\spotify_sidebar_logo.png" alt="" id="sidebar--img"/>
@@ -19,6 +24,9 @@ export const Sidebar=()=> {
            <br />
            <strong className='playlist--main'>PlayLists</strong>
            <hr/>
+           {playlist?.items?.map(playlist=>(
+            <SidebarMenuOptions title={playlist.name}/>
+           ))}
            
 
     </div>
