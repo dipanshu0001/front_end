@@ -1,0 +1,19 @@
+.sidebar_menu{
+    color:gray;
+    display: flex;
+    /* justify-content:; */
+    width:max-content;
+    transition: 300ms color ease;
+    font-size: x-large;
+    font-weight:400 ;
+}
+.icon{
+    margin:14px 10px;
+
+}
+.title{
+    margin:10px;
+}
+.sidebar_menu:hover{
+    color:white;
+}

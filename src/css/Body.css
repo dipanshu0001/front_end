@@ -1,0 +1,67 @@
+#body--main{
+    flex:.8;
+    display: grid;
+    grid-template-columns:1fr;
+    overflow-y: overlay;
+    background-color: rgb(19,75,115) !important;
+    background:linear-gradient(transparent,rgba(0,0,0,1));
+    padding:50px;
+}
+.artist--img{
+    grid-row: 1/-1;
+}
+#discover_div{
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    justify-content: center;
+}
+#type_heading{
+    flex:.3;
+    text-align: center;
+    /* padding-bottom:50px;    */
+}
+#texts{
+    display: flex;
+    flex-direction: column;
+    padding-left:2%;
+    flex-wrap: wrap;
+
+
+}
+#img{
+    width:279px;
+    height:279px;
+    position:relative ;
+    box-shadow: 0 4px 60px rgb(0 0 0 / 50%);
+
+}
+#img >img{
+    position: absolute;
+    height:100%;
+    width:100%;
+    object-fit: contain;
+}
+#large_heading{
+    font-weight: 900;
+    width: 100%;
+    font-size:5rem;
+    /* flex:.5; */
+    /* padding:50px; */
+/* font-size:xx-large; */
+}
+#description_heading{
+    flex:1;
+    padding:7% 0px ;
+}
+#heading_songs{
+    display: grid;
+    grid-template-columns: 20px 3fr 2fr 1fr 1fr;
+    color: white;
+    margin:20px;
+}
+#title_heading,
+#album_heading{
+    padding-left:10px;
+    /* text-align: center; */
+} 

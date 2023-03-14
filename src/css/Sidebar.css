@@ -1,0 +1,21 @@
+#sidebar--main{
+    flex:.2;
+    background-color: black;
+    /* border: 5px solid green; */
+    min-width: 230px;
+    color: gray;
+    padding-top: 20px;
+}
+#sidebar--img{
+    height:70px;
+    object-fit: contain;
+    /* background-color: aquamarine; */
+    margin-right: auto;
+}   
+.playlist--main{
+    color: white;
+    padding-left: 20px;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    font-size: larger;
+}

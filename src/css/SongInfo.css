@@ -1,0 +1,58 @@
+.songinfo--main{
+    display: grid;
+    grid-template-columns: 20px 3fr 2fr 1fr 1fr;
+    font-size: small;
+    margin:10px;
+    color: white;
+    /* font-family: '	Geometric Sans-Serif'; */
+    /* font-family: --font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva; */
+    height: 56px;
+    border-radius: 4px;
+}
+.songinfo--main:hover{
+    background-color: rgba(54, 54, 54, 0.5);
+}
+.artist--img{
+    width:40px;
+    height:40px; 
+    grid-row: 1/-1;
+    border-radius: 5px;
+}
+.song_info{
+    display: grid;  
+    grid-template-columns:40px auto;
+    grid-template-rows: repeat(2,auto);
+    padding-left:10px;
+    margin:auto 0px;
+}
+.song_name,.artist_name{
+    padding-left:10px;
+}
+.playbtn{
+    text-align: center;
+    margin: auto;
+}
+.index_btn{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.duration{
+    color: white ;
+}
+.text_center{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin: auto 0px;
+
+}
+.white{
+    color: white;
+}
+.gray{
+    color:gray;
+}
+.remove_icon{
+    margin: 10px;
+}
